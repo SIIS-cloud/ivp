@@ -1,0 +1,45 @@
+# The Integrity Verification Proxy (IVP) additions are ...
+#
+#  Copyright (c) 2012 The Pennsylvania State University
+#  Systems and Internet Infrastructure Security Laboratory
+#
+# they were developed by:
+# 
+#  Joshua Schiffman <jschiffm@cse.psu.edu>
+#  Hayawardh Vijayakumar <huv101@cse.psu.edu>
+#  Trent Jaeger <tjaeger@cse.psu.edu>
+#
+# Unless otherwise noted, all code additions are ...
+#
+#  * Licensed under the Apache License, Version 2.0 (the "License");
+#  * you may not use this file except in compliance with the License.
+#  * You may obtain a copy of the License at
+#  *
+#  * http://www.apache.org/licenses/LICENSE-2.0
+#  *
+#  * Unless required by applicable law or agreed to in writing, software
+#  * distributed under the License is distributed on an "AS IS" BASIS,
+#  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#  * See the License for the specific language governing permissions and
+#  * limitations under the License.
+
+
+
+
+
+
+[Hash]
+;kernel: c69b9ce1d521a2293d737900a7c3fcb8f9234d5a
+;initrd: df1e8f994cf0500dfcbb4a8d3f349d07d4c9f88a
+;kernel: cfaea79517c22cc4a996996e2d7cfe4a89a904c7
+;initrd: 69b91e0b13da9024bc62da3055d2cbd738743419 
+kernel: df23969f450af69f9004a627e0bb61ad82ff62f1
+initrd: b1f903d53e6ec4cca6d0fe3891330e5ded497aac 
+
+;[SELinux_Enforce]
+;enforcing: 1
+
+;[Prima]
+;trusted: exp
+
+[Timing]
